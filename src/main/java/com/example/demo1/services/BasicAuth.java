@@ -1,5 +1,4 @@
 package com.example.demo1.services;
-
 import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerRequestFilter;
 import javax.ws.rs.core.HttpHeaders;
@@ -13,6 +12,8 @@ import java.util.Base64;
 @Provider
 public class BasicAuth implements ContainerRequestFilter {
 
+    @interface Security {
+    }
     @Override
     public void filter(ContainerRequestContext requestContext) throws IOException {
         // Get the Authorization header from the request
@@ -65,7 +66,7 @@ public class BasicAuth implements ContainerRequestFilter {
         try {
             // Get a database connection using the DBConn class (assumed to be implemented elsewhere)
             Connection connection = DBConn.getConnection();
-            System.out.println("Connected");
+            //System.out.println("Connected");
 
             // Prepare the SQL statement to query the UserLogins table for a matching username and password
             String sql = "SELECT COUNT(*) FROM UserLogins WHERE username = ? AND password = ?";
