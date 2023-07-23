@@ -1,0 +1,292 @@
+body{
+    background-color:   rgb(29, 100, 100) !important;
+    margin: 0;
+    margin-bottom:100px;
+}
+
+.body-bg{
+    background-color: white;
+}
+
+.leftdiv{
+    position: absolute;
+    width: 260px;
+    font-family: 'Poppins';
+    height: 834px;
+    position: fixed;
+    overflow: hidden;
+    top: 0px;
+    background-color: rgba(20, 117, 117, 0.377);
+    color: white;
+    border-radius: 0px 20px 20px 0px;
+}
+
+
+.leftdiv h3{
+    font-size: large;
+    margin-left: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+
+.leftdiv a{
+    right: 0;
+    display: block;
+    width: 200px;
+    height: 46.42px;
+    background-color:  #1D1D41;
+    border-radius: 8.14453px;
+    border: None;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.leftdiv ul li{
+    padding: 3px 10px;
+    list-style: none;
+    margin-left: -45px;
+    font-size: small;
+}
+
+
+.leftdiv ul li a .fas{
+    width: 25px;
+}
+
+.leftdiv ul li a{
+    color: #ffffff;
+    display: block;
+
+}
+
+.leftdiv a:hover{
+    background-color: #6359E9;
+    text-decoration: none;
+}
+
+.userLogTab{
+    display: flex;
+    margin-left: 30px;
+}
+
+.custom-select{
+    color: white;
+    width: 10px;
+    height: 10px;
+}
+
+.userLogTab .user-name{
+    position: relative;
+    margin-left: 10px;
+    top:10px;
+}
+.custom-select select{
+    width: 20px;
+    position: relative;
+    top:10px;
+    border-color:#1D1D41;
+    margin-left: 10px;
+    background-color: #1d1d4100;
+    color: rgb(255, 255, 255);
+}
+
+.userLogTab #logout{
+    color: rgb(3, 3, 3);
+    border-radius: 40px;
+}
+
+.userImage{
+    width: 40px;
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 50px;
+}
+
+
+.leftdiv hr{
+    border: 1px solid #27264E;
+    width: 230px;
+}
+
+.top{
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    color: white;
+    display: grid;
+    height: 200px;
+}
+
+
+.bannerTop{
+    width: 700px;
+    height: 60px;
+    background-color:#1D1D41;
+    float: right;
+    position: relative;
+    top:40px;
+    border-radius:100px 0px 0px 2px;
+}
+
+.bannerHeading{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    font-weight: bold;
+    position: absolute;
+    top: 25%;
+}
+.H1{
+    color: white;
+    font-family: 'Poppins';
+    text-transform: uppercase;
+    font-size: 14pt;
+    font-weight: bold;
+    left:40px;
+    top:30px;
+    position: relative;
+}
+.middle-top{
+    position: absolute;
+    left: 270px;
+    top:200px;
+    border-radius: 20px;
+    display: grid;
+    height: max-content;
+    grid-gap: 10px;
+    row-gap: 30px;
+    grid-template-columns:auto auto;
+    background-color: #242425;
+    padding-bottom: 50px;
+}
+
+input{
+    position: relative;
+    width: 260px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    left: 120px;
+    display:grid;
+
+}
+
+label{
+    color: white;
+    top: 35px;
+    position: relative;
+    left: 30px;
+}
+
+.grid1-item{
+    font-family: 'Poppins';
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 450px;
+    height: 60px;
+    color: rgb(0, 0, 0);
+    border-color:#1d1d4100;
+}
+
+input[type="text"] {
+    padding-left: 20px; /* Move text 30 pixels to the left */
+}
+
+.grid1-1{
+    font-family: 'Poppins';
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 450px;
+    height: 300px;
+    color: rgb(0, 0, 0);
+    border-color:#1d1d4100;
+}
+
+label[for="Aboutme"] {
+    position: relative;
+}
+
+input[type="date"] {
+    text-align: center; /* Center align text */
+}
+
+
+textarea{
+    position: relative;
+    left: 120px;
+    width: 650px;
+    resize: none;
+    top:30px;
+}
+
+
+.grid1-item .avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position:absolute;
+    top: -70px;
+    left: 30px;
+}
+
+.grid1-item .UserInfo{
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    font-size: medium;
+    padding-left: 15px;
+    top: 35px;
+    left: 300px;
+    border-radius: 20px;
+    background-color: #333365;
+}
+
+
+.B1{
+    width: 150px;
+    height: 50px;
+    border-color: #33336500;
+    background-color:#6359E9;
+    font-family: 'Poppins';
+    font-size:10pt;
+    top:280px;
+    right: 80px;
+    color:white;
+    position: relative;
+    border-radius: 10px;
+    margin-right: 20px;
+
+}
+
+.B1:hover{
+    background-color: #4a42c2;
+}
+
+.bannerTop{
+    width: 700px;
+    height: 60px;
+    background-color:#1D1D41;
+    float: right;
+    position: relative;
+    top:40px;
+    border-radius:100px 0px 0px 2px;
+}
+
+.bannerHeading{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 14pt;
+    letter-spacing: 1pt;
+    font-weight: bold;
+    position: absolute;
+    top: 25%;
+}
+
+.break{
+    width: 200px;
+    top:1000px;
+    height: 100px;
+    position: relative;
+}

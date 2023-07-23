@@ -1,0 +1,115 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins';
+}
+
+#logoPic{
+    position: relative;
+}
+
+.navbar{
+    background-color: #000000; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0),#000000,rgb(0, 0, 0));
+
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    float: right;
+    margin-right: 85px;
+    top:35px ;
+    position: relative;
+}
+
+.menu ul li {
+
+    display: inline;
+    padding: 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins';
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+
+#full_main{
+    background-color: #000000; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0),#000000,rgb(0, 0, 0));
+
+
+
+}
+#theme{
+    background-color: #000000; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0),#222222,rgb(0, 0, 0));
+
+}
+
+#bgp2{
+    opacity:0.4;
+}
+
+.bg_container {
+
+    object-fit: cover;
+    position: relative;
+    max-width: 100%; /* Maximum width */
+    margin: 0; /* Center it */
+    overflow: hidden;
+
+}
+
+#text-block{
+    width: 100%;
+    height: 580px;
+    padding-top:30px;
+    background-color: rgba(20, 117, 117, 0.377);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.grid1{
+    position: absolute;
+    left: 310px;
+    top:280px;
+    display: grid;
+    height: 220px;
+    column-gap: 50px;
+    grid-gap: 50px;
+    grid-template-columns:auto auto;
+}
+.box-1{
+    display: inline-block;
+    position: relative;
+    left: 18%;
+    text-decoration: none;
+
+}
+button {
+    width: 280px;
+    height: 70px;
+    background-color: rgb(252, 221, 49);
+    border-color:  rgba(19, 158, 158, 0.377);
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins';
+    font-size:medium;
+    border-radius: 15px 15px 15px 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    transition: all 1s;
+    margin-left: 25px;
+}
+
+button:hover{
+    background-color: rgb(255, 232, 102);
+    border-color:  rgb(252, 221, 49);
+}

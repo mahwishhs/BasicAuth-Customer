@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    font-family: 'Poppins';
+
+}
+
+.bg-form{
+    margin-top: -30px;
+    background-color: #000000;
+}
+
+.bg-imgform{
+    margin-top: -30px;
+}
+
+#bgpic1{
+    height: 650px;
+}
+
+#bgp2{
+    opacity:0.4;
+}
+
+.remember-box {
+    margin: auto;
+    font-family: 'Poppins';
+    font-size: 13px;
+    color: white;
+}
+
+
+.remember-box a {
+    text-decoration: none;
+    color: white;
+    margin-left:70px;
+
+}
+.remember-box a:hover {
+    color:#6359E9;
+}
+
+.bgTextcenter {
+    color: white;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 15pt;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loginForm{
+    background-color:#292827 ;
+    font-family: 'Poppins';
+    color: white;
+    width: 300px;
+    padding-left: 20px;
+    top: 70%;
+    border-radius: 20px;
+    border-style: none;
+    left: 12%;
+    position: relative;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#loginForm:hover{
+    background-color: rgb(66, 62, 62);
+}
+
+
+#text-block{
+    width: 450px;
+    height: 150px;
+    position: absolute;
+    border-radius: 20px;
+    top: 30%;
+    left: 440px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+#text-block h3{
+    margin-top: -20px;
+}
+
+#text-block h4{
+    margin-top: -5px;
+}
+
+form {
+    text-align: center;
+}
+
+
+input {
+    font-size: 14px;
+    border-style: none;
+    border-radius: 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+input[type="text"]{
+    width:300px;
+    padding: 15px;
+    box-sizing:border-box;
+}
+
+input[type="password"]{
+    width:300px;
+    padding: 15px;
+    box-sizing:border-box;
+}
+
+input[type="submit"]{
+    width:300px;
+    color: white;
+    background-color:  #6359E9;
+    padding: 15px;
+    box-sizing:border-box;
+}
+

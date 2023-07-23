@@ -12,8 +12,7 @@ import java.util.Base64;
 @Provider
 public class BasicAuth implements ContainerRequestFilter {
 
-    @interface Security {
-    }
+
     @Override
     public void filter(ContainerRequestContext requestContext) throws IOException {
         // Get the Authorization header from the request
