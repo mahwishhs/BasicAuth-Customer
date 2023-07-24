@@ -1,0 +1,67 @@
+17:35:26.341 [RMI TCP Connection(2)-127.0.0.1] INFO  org.jboss.weld.Version - WELD-000900: 3.1.9 (Final)
+17:35:26.585 [RMI TCP Connection(2)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+17:35:26.765 [RMI TCP Connection(2)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+17:35:27.617 [RMI TCP Connection(2)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-ENV-002003: Weld SE container 0f504226-8c39-43ae-93ee-8807b2e812fc initialized
+17:35:30.100 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:35:30.890 [http-nio-8080-exec-6] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:35:31.109 [http-nio-8080-exec-6] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+17:35:31.154 [http-nio-8080-exec-6] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 44 ms
+17:38:02.342 [http-nio-8080-exec-3] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+17:38:02.345 [http-nio-8080-exec-3] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 2 ms
+17:38:07.174 [http-nio-8080-exec-2] INFO  c.e.demo1.resources.LoggerResource - API call: Delete customer - ID: 17
+17:38:07.310 [http-nio-8080-exec-2] INFO  c.e.demo1.resources.LoggerResource - Delete customer - Elapsed Time: 136 ms
+17:38:08.599 [http-nio-8080-exec-1] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+17:38:08.601 [http-nio-8080-exec-1] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 2 ms
+17:38:20.600 [localhost-startStop-2] INFO  org.jboss.weld.Bootstrap - WELD-ENV-002001: Weld SE container 0f504226-8c39-43ae-93ee-8807b2e812fc shut down
+17:39:59.551 [RMI TCP Connection(2)-127.0.0.1] INFO  org.jboss.weld.Version - WELD-000900: 3.1.9 (Final)
+17:39:59.767 [RMI TCP Connection(2)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+17:39:59.953 [RMI TCP Connection(2)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+17:40:00.853 [RMI TCP Connection(2)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-ENV-002003: Weld SE container 53e2fe7c-3797-4a5e-b552-c3833ceef9c8 initialized
+17:40:03.529 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+17:40:04.974 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+17:40:05.228 [http-nio-8080-exec-5] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+17:40:05.362 [http-nio-8080-exec-5] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 134 ms
+17:40:06.005 [http-nio-8080-exec-6] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+17:40:06.007 [http-nio-8080-exec-6] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 2 ms
+17:40:09.677 [http-nio-8080-exec-10] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+17:40:09.680 [http-nio-8080-exec-10] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 3 ms
+17:40:16.438 [http-nio-8080-exec-2] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+17:40:16.440 [http-nio-8080-exec-2] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 2 ms
+17:40:22.514 [http-nio-8080-exec-3] INFO  c.e.demo1.resources.LoggerResource - API call: Delete customer - ID: 999
+17:40:22.586 [http-nio-8080-exec-3] INFO  c.e.demo1.resources.LoggerResource - Delete customer - Elapsed Time: 71 ms
+17:40:24.342 [http-nio-8080-exec-4] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+17:40:24.344 [http-nio-8080-exec-4] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 2 ms
+17:42:16.851 [localhost-startStop-2] INFO  org.jboss.weld.Bootstrap - WELD-ENV-002001: Weld SE container 53e2fe7c-3797-4a5e-b552-c3833ceef9c8 shut down
+22:21:12.130 [RMI TCP Connection(5)-127.0.0.1] INFO  org.jboss.weld.Version - WELD-000900: 3.1.9 (Final)
+22:21:12.357 [RMI TCP Connection(5)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+22:21:12.570 [RMI TCP Connection(5)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+22:21:13.445 [RMI TCP Connection(5)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-ENV-002003: Weld SE container 9096726a-b000-45e6-8e09-87d7dfd22bf1 initialized
+22:21:19.723 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:21:21.143 [http-nio-8080-exec-8] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:21:21.343 [http-nio-8080-exec-8] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+22:21:21.366 [http-nio-8080-exec-8] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 23 ms
+22:21:21.879 [http-nio-8080-exec-9] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+22:21:21.889 [http-nio-8080-exec-9] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 10 ms
+22:21:21.904 [http-nio-8080-exec-1] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+22:21:21.908 [http-nio-8080-exec-1] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 3 ms
+22:21:26.155 [http-nio-8080-exec-6] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+22:21:26.157 [http-nio-8080-exec-6] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 2 ms
+22:22:41.747 [RMI TCP Connection(9)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-ENV-002001: Weld SE container 9096726a-b000-45e6-8e09-87d7dfd22bf1 shut down
+22:44:36.310 [RMI TCP Connection(4)-127.0.0.1] INFO  org.jboss.weld.Version - WELD-000900: 3.1.9 (Final)
+22:44:36.510 [RMI TCP Connection(4)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-ENV-000014: Falling back to Java Reflection for bean-discovery-mode="annotated" discovery. Add org.jboss:jandex to the classpath to speed-up startup.
+22:44:36.708 [RMI TCP Connection(4)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+22:44:37.598 [RMI TCP Connection(4)-127.0.0.1] INFO  org.jboss.weld.Bootstrap - WELD-ENV-002003: Weld SE container c77fee59-7047-4c11-bf2a-e65585810481 initialized
+22:44:40.408 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+22:44:40.945 [http-nio-8080-exec-5] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+22:44:41.031 [http-nio-8080-exec-5] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+22:44:41.034 [http-nio-8080-exec-5] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 3 ms
+22:44:45.556 [http-nio-8080-exec-8] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+22:44:45.559 [http-nio-8080-exec-8] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 3 ms
+22:45:36.735 [http-nio-8080-exec-10] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+22:45:36.738 [http-nio-8080-exec-10] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 3 ms
+22:45:38.748 [http-nio-8080-exec-4] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+22:45:38.750 [http-nio-8080-exec-4] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 2 ms
+22:45:45.283 [http-nio-8080-exec-5] INFO  c.e.demo1.resources.LoggerResource - API call: Delete customer - ID: 6
+22:45:45.350 [http-nio-8080-exec-5] INFO  c.e.demo1.resources.LoggerResource - Delete customer - Elapsed Time: 67 ms
+22:45:46.384 [http-nio-8080-exec-6] INFO  c.e.demo1.resources.LoggerResource - API call: Get all customers
+22:45:46.387 [http-nio-8080-exec-6] INFO  c.e.demo1.resources.LoggerResource - Getting All Customers - Elapsed Time: 2 ms

@@ -1,0 +1,48 @@
+22:23:09.185 [http-nio-8080-exec-5] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:23:09.200 [http-nio-8080-exec-5] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 14 ms
+22:23:09.916 [http-nio-8080-exec-4] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:23:09.920 [http-nio-8080-exec-4] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 2 ms
+22:23:11.440 [http-nio-8080-exec-2] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:23:11.445 [http-nio-8080-exec-2] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 5 ms
+22:23:22.708 [http-nio-8080-exec-3] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:23:22.711 [http-nio-8080-exec-3] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 2 ms
+22:23:30.347 [http-nio-8080-exec-10] INFO  c.e.demo1.resources.LoggerResource - [] API call: Delete customer - ID: 12
+22:23:30.661 [http-nio-8080-exec-10] INFO  c.e.demo1.resources.LoggerResource - [] Delete customer - Elapsed Time: 314 ms
+22:23:31.906 [http-nio-8080-exec-11] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:23:31.908 [http-nio-8080-exec-11] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 2 ms
+22:23:52.732 [http-nio-8080-exec-9] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:23:52.734 [http-nio-8080-exec-9] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 2 ms
+22:24:12.322 [http-nio-8080-exec-12] INFO  c.e.demo1.resources.LoggerResource - [] API call: Update customer - ID: 15
+22:24:12.380 [http-nio-8080-exec-12] INFO  c.e.demo1.resources.LoggerResource - [] Update customer - Elapsed Time: 58 ms
+22:24:13.578 [http-nio-8080-exec-13] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:24:13.580 [http-nio-8080-exec-13] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 2 ms
+22:26:44.589 [http-nio-8080-exec-18] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:26:44.632 [http-nio-8080-exec-18] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 43 ms
+22:26:49.303 [http-nio-8080-exec-11] INFO  c.e.demo1.resources.LoggerResource - [] API call: Delete customer - ID: 2
+22:26:49.404 [http-nio-8080-exec-11] INFO  c.e.demo1.resources.LoggerResource - [] Delete customer - Elapsed Time: 99 ms
+22:26:49.418 [http-nio-8080-exec-14] INFO  c.e.demo1.resources.LoggerResource - [] API call: Delete customer - ID: 2
+22:26:49.453 [http-nio-8080-exec-14] INFO  c.e.demo1.resources.LoggerResource - [] Delete customer - Elapsed Time: 34 ms
+22:26:50.573 [http-nio-8080-exec-15] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:26:50.577 [http-nio-8080-exec-15] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 3 ms
+22:26:51.669 [http-nio-8080-exec-12] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:26:51.671 [http-nio-8080-exec-12] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 2 ms
+22:27:14.729 [http-nio-8080-exec-13] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:27:14.733 [http-nio-8080-exec-13] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 4 ms
+22:44:22.776 [http-nio-8080-exec-4] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:44:22.980 [http-nio-8080-exec-5] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+22:44:22.988 [http-nio-8080-exec-4] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 211 ms
+22:44:22.997 [http-nio-8080-exec-5] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 2 ms
+23:12:40.007 [http-nio-8080-exec-9] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+23:12:40.080 [http-nio-8080-exec-9] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 52 ms
+23:12:40.731 [http-nio-8080-exec-8] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+23:12:40.735 [http-nio-8080-exec-8] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 2 ms
+23:12:41.705 [http-nio-8080-exec-4] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+23:12:41.707 [http-nio-8080-exec-4] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 2 ms
+23:13:09.276 [http-nio-8080-exec-2] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+23:13:09.278 [http-nio-8080-exec-2] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 2 ms
+23:13:11.060 [http-nio-8080-exec-9] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+23:13:11.062 [http-nio-8080-exec-9] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 2 ms
+23:13:18.568 [http-nio-8080-exec-7] INFO  c.e.demo1.resources.LoggerResource - [] API call: Delete customer - ID: 75
+23:13:18.737 [http-nio-8080-exec-7] INFO  c.e.demo1.resources.LoggerResource - [] Delete customer - Elapsed Time: 169 ms
+23:13:19.635 [http-nio-8080-exec-6] INFO  c.e.demo1.resources.LoggerResource - [] API call: Get all customers
+23:13:19.637 [http-nio-8080-exec-6] INFO  c.e.demo1.resources.LoggerResource - [] Getting All Customers - Elapsed Time: 2 ms

@@ -1,0 +1,68 @@
+<configuration>
+
+    <!-- Console Appender -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - [%marker] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Add separate File Appenders for each HTTP method -->
+    <appender name="FILE_GET" class="ch.qos.logback.core.FileAppender">
+        <file>C:/Users/HP/IdeaProjects/demo1/Logfiles/get.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - [%marker] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE_POST" class="ch.qos.logback.core.FileAppender">
+        <file>C:/Users/HP/IdeaProjects/demo1/Logfiles/post.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - [%marker] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE_PUT" class="ch.qos.logback.core.FileAppender">
+        <file>C:/Users/HP/IdeaProjects/demo1/Logfiles/put.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - [%marker] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <appender name="FILE_DELETE" class="ch.qos.logback.core.FileAppender">
+        <file>C:/Users/HP/IdeaProjects/demo1/Logfiles/delete.log</file>
+        <encoder>
+            <pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - [%marker] %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Add a custom TurboFilter for HTTP method-based filtering -->
+    <turboFilter class="ch.qos.logback.core.filter.EvaluatorFilter">
+        <evaluator class="ch.qos.logback.core.boolex.JaninoEventEvaluator">
+            <expression>return marker.contains("GET") || marker.contains("POST") || marker.contains("PUT") || marker.contains("DELETE");</expression>
+        </evaluator>
+        <OnMismatch>NEUTRAL</OnMismatch>
+        <OnMatch>ACCEPT</OnMatch>
+    </turboFilter>
+
+    <!-- Define loggers for each HTTP method -->
+    <logger name="com.example.demo1.resources" level="INFO" additivity="false">
+        <appender-ref ref="FILE_GET" />
+    </logger>
+
+    <logger name="com.example.demo1.resources" level="INFO" additivity="false">
+        <appender-ref ref="FILE_POST" />
+    </logger>
+
+    <logger name="com.example.demo1.resources" level="INFO" additivity="false">
+        <appender-ref ref="FILE_PUT" />
+    </logger>
+
+    <logger name="com.example.demo1.resources" level="INFO" additivity="false">
+        <appender-ref ref="FILE_DELETE" />
+    </logger>
+
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+    </root>
+</configuration>
